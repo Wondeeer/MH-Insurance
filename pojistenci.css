@@ -1,0 +1,133 @@
+html {
+    background: rgb(194, 190, 190);
+}
+
+body {
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+    /*max-width: 960px;
+    /*display: flex;*/
+    min-height: 100vh;
+    background-image: url(obrazky/iStock-1282624945.png);
+    box-sizing: border-box;
+
+}
+
+
+
+
+body>header {
+    /*Jak přizpůsobit text k šířce?*/
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 20;
+    box-shadow: 5px 5px 15px 5px #dfaa7e;
+    /*float: left;*/
+}
+
+nav ul {
+
+    list-style-type: none;
+}
+
+nav ul a {
+    font-size: 1.2em;
+    color: #171515;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    /*text bude mít kolem sebe stejně prostoru*/
+}
+
+nav ul a:hover,
+.active a {
+    border-bottom: 2px solid white;
+}
+
+input[type="text"],
+input[type="number"] {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    /*nebo #buttonUloz|*/
+    background-color: #dfaa7e;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 212, 156);
+}
+
+main {
+    text-align: center;
+    padding: 12px 12px 50px 12px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+
+
+h1 {
+    color: #000000;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.center-table {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.center-table th,
+.center-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.center-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.center-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

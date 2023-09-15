@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Martin Heiler" />
+    <link rel="stylesheet" href="pojistenci.css" type="text/css" />
+
+    <title>Pojištění</title>
+</head>
+
+<body>
+    <h1>Pojištění nemovitosti</h1>
+    <header>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Hlavní&nbsp;stránka</a></li>
+                <li><a href="pojistenci.html">Pojištěné&nbsp;osoby</a></li>
+                <li><a href="oaplikaci.html">O&nbsp;aplikaci</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Registrace osoby</h2>
+
+            <div>
+                <input type="text" id="inputJmeno" placeholder="Jméno">
+                <input type="text" id="inputPrijmeni" placeholder="Příjmení">
+            </div>
+            <div>
+                <input type="text" id="inputVek" placeholder="Věk">
+                <input type="text" id="inputTel" placeholder="Telefon">
+            </div>
+            <div>
+                <button id="buttonUloz">Ulož</button>
+                <!-- <button id="buttonVypis">Vypiš</button> -->
+            </div>
+
+        </div>
+
+        <div id="vypisContainer"></div>
+
+    </main>
+    <footer>
+        Vytvořil &copy;Martin Heiler projekt pro <a href="https://itnetwork.cz">ITnetwork.cz</a>
+    </footer>
+
+    <script type="module" src="Pojistenec.js"></script>y
+    <script type="module" src="SeznamPojistencu.js"></script>
+    <script type="module" src="Obsluha.js"></script>
+
+
+
+</body>
+
+</html>
